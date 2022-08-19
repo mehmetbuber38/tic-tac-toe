@@ -1,0 +1,19 @@
+{
+  "navigation": {
+    "about": "About",
+    "homepage": "Home"
+  },
+  "winnerMessages": {
+    "noWinner": "No Winning Players, Friendship Won",
+    "winnerPlayer": "Game Finished! Winning Player",
+    "winner": "Winner"
+  },
+  "about": {
+    "title": "Our game Tic Tac Toe is written using the React.js library.",
+    "desc1": "I used Tailwind.css UI Library in the project.",
+    "desc2": "I created a dynamic structure by defining the codes I use constantly to variables.",
+    "desc3": "Made using hooks.",
+    "desc4": "I gave the feedback message to the user using the Toast component and pressing the top part.",
+    "desc5": "I created route pages."
+  }
+}

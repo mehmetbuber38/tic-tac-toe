@@ -1,0 +1,52 @@
+/* Tailwind Init */
+@tailwind base;
+@tailwind utilities;
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap");
+
+@import "variables.scss";
+@import "./components/site-header.scss";
+@import "./components/square.scss";
+@import "./about.scss";
+
+body {
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+}
+
+.App {
+  font-family: "Poppins", sans-serif;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: $primaryBlack;
+  overflow: hidden;
+}
+
+.toast {
+  position: fixed;
+  bottom: 2rem;
+  right: 2rem;
+  height: 5rem;
+}
+
+.winner-message {
+  display: none;
+  position: absolute;
+  top: 80px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 4;
+  color: $primaryWhite;
+  font-size: 2rem;
+  text-transform: uppercase;
+  transition: all 0.3s ease-in;
+  white-space: nowrap;
+}
+
+.winner-message--active {
+  display: block;
+}

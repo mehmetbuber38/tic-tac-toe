@@ -1,0 +1,19 @@
+{
+  "navigation": {
+    "about": "Hakkında",
+    "homepage": "Anasayfa"
+  },
+  "winnerMessages": {
+    "noWinner": "Berabere, dostluk kazandı",
+    "winnerPlayer": "Oyun Bitti! Kazanan",
+    "winner": "Kazanan"
+  },
+  "about": {
+    "title": "Oyun Tic Tac Toe, React.js Kütüphanesi kullanılarak yazılmıştır.",
+    "desc1": "Projede tailwind.css UI kütüphanesini kullandım.",
+    "desc2": "CSS Değişkenlere sürekli olarak kullandığım kodları tanımlayarak dinamik bir yapı oluşturdum.",
+    "desc3": "Hooks kullanılarak yapılmıştır.",
+    "desc4": "Toast bileşenini kullanarak kullanıcıya geri bildirim mesajı verdim ve üst kısmı bastırdım.",
+    "desc5": "Route sayfaları oluşturdum."
+  }
+}
